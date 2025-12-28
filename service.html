@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- Mobile Responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Products & Services | RN Concrete Udyog</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Header */
+.header{
+    background:#f30e0e;
+    color:rgb(200, 227, 23);
+    padding:20px;
+    text-align:center;
+}
+
+/* Container */
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:30px auto;
+}
+
+/* Services Grid */
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    gap:20px;
+}
+
+/* Service Box */
+.service-box{
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.service-box:hover{
+    transform:translateY(-5px);
+}
+
+/* Icon */
+.service-icon{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+/* Title */
+.service-box h3{
+    color:#004aad;
+    margin-bottom:10px;
+}
+
+/* Text */
+.service-box p{
+    color:#333;
+    font-size:15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Products / Services</h1>
+    <p>RN Concrete Udyog</p>
+</div>
+
+<div class="container">
+
+    <div class="services">
+
+        <!-- RMC -->
+        <div class="service-box">
+            <div class="service-icon">🏗️</div>
+            <h3>RMC (Ready Mix Concrete)</h3>
+            <p>
+                High quality Ready Mix Concrete for residential,
+                commercial and industrial construction with
+                assured strength and durability.
+            </p>
+        </div>
+
+        <!-- Cement Blocks -->
+        <div class="service-box">
+            <div class="service-icon">🧱</div>
+            <h3>Cement Blocks</h3>
+            <p>
+                Strong and durable cement blocks manufactured
+                with advanced machinery, suitable for all types
+                of construction work.
+            </p>
+        </div>
+
+        <!-- Construction Material -->
+        <div class="service-box">
+            <div class="service-icon">🚚</div>
+            <h3>Construction Material Supply</h3>
+            <p>
+                Complete supply of construction materials including
+                sand, stone, aggregate and other building essentials
+                delivered on time.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
